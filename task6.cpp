@@ -13,6 +13,7 @@ public:
     T x;
     Num(T i) { x = i; }
     virtual T get_val() { return x; }
+    virtual ~Num(){};
 };
 
 template <class T>

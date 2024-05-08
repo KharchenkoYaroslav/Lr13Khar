@@ -14,6 +14,7 @@ public:
     DataStruct() : tos(0) {}
     virtual void push(T obj) = 0;
     virtual T pop() = 0;
+    virtual ~DataStruct(){};
 };
 
 template <class T>
